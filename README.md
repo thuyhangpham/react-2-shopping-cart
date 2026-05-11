@@ -1,4 +1,4 @@
-WeCamp Training: React #2 - Assignment
+#WeCamp Training: React #2 - Assignment
 1) Assignment Overview
 
 Title: Shopping Cart App
@@ -10,59 +10,39 @@ In this assignment, you will build a simple Shopping Cart application using Reac
 2) Functional Requirements
 2.1 Add to Cart
 Display a list of products. Each product should include:
++ Name
++ Price
++ On clicking “Add to Cart”:
++ Add the product to your cart
 
-Name
-
-Price
-
-On clicking “Add to Cart”:
-
-Add the product to your cart
-
-If the product already exists, increase its quantity
+! If the product already exists, increase its quantity
 
 2.2 Cart List
 Display all items in the cart:
-
-Name
-
-Price
-
-Quantity
-
-Total price per item (price × quantity)
-
++ Name
++ Price
++ Quantity
++ Total price per item (price × quantity)
+  
 For each item, implement these logic:
-
-Increase quantity
-
-Decrease quantity
-
-Remove item
++ Increase quantity
++ Decrease quantity
++ Remove item
 
 2.3 Cart Summary
 Display:
-
-Total number of items
-
-Total price of the cart
++ Total number of items
++ Total price of the cart
 
 2.4 State Management
-
 Use Redux Toolkit to manage the cart's state
-
 Implement the following actions:
-
-Add item
-
-Remove item
-
-Update quantity
++ Add item
++ Remove item
++ Update quantity
 
 2.5 Persist Data
-
 Save cart data to localStorage
-
 Load cart data when the app starts
 
 3) Data structure
