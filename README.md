@@ -1,4 +1,4 @@
-#WeCamp Training: React #2 - Assignment
+# WeCamp Training: React #2 - Assignment
 1) Assignment Overview
 
 Title: Shopping Cart App
